@@ -1,5 +1,6 @@
 // 导入颜色选择器组件
 import Button from './button'
+import ButtonGroup from './button-group'
 import Dialog from './dialog'
 import Input from './input'
 import Checkbox from './checkbox'
@@ -9,6 +10,7 @@ import './fonts/font.scss'
 // 存储组件列表
 const components = [
   Button,
+  ButtonGroup,
   Dialog,
   Input,
   Checkbox,
@@ -31,6 +33,7 @@ export default {
   install,
   // 以下是具体的组件列表
   Button,
+  ButtonGroup,
   Dialog,
   Input,
   Checkbox,
